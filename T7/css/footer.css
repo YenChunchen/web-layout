@@ -1,0 +1,63 @@
+/* line 5, ../scss/footer.scss */
+footer {
+  background-color: #e94123;
+  margin-top: 5%;
+}
+/* line 8, ../scss/footer.scss */
+footer .footerlogo {
+  margin-top: 1%;
+}
+/* line 10, ../scss/footer.scss */
+footer .footerlogo img {
+  width: 100%;
+}
+
+/* line 15, ../scss/footer.scss */
+.footersocial {
+  padding-top: 1%;
+}
+
+/* line 18, ../scss/footer.scss */
+.footerlist {
+  padding-top: 1%;
+}
+/* line 20, ../scss/footer.scss */
+.footerlist .list {
+  display: flex;
+  justify-content: center;
+}
+/* line 24, ../scss/footer.scss */
+.footerlist ul {
+  padding: 1% 0;
+  width: 105%;
+  margin-left: -15px;
+}
+/* line 28, ../scss/footer.scss */
+.footerlist ul li {
+  border-right: 2px white solid;
+}
+/* line 30, ../scss/footer.scss */
+.footerlist ul li a {
+  width: 100%;
+  font-size: 0.1vw;
+  color: white;
+}
+/* line 36, ../scss/footer.scss */
+.footerlist ul .non {
+  border-right: 2px #e94123 solid;
+}
+
+/* line 41, ../scss/footer.scss */
+.sociallist {
+  display: flex;
+  padding-top: 1%;
+  padding-left: 0;
+}
+/* line 45, ../scss/footer.scss */
+.sociallist li {
+  margin: 1% 5%;
+}
+/* line 47, ../scss/footer.scss */
+.sociallist li a {
+  color: white;
+}

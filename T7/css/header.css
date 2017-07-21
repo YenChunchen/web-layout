@@ -1,0 +1,142 @@
+/* line 6, ../scss/header.scss */
+header .logocontact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* line 12, ../scss/header.scss */
+.logoimg {
+  display: flex;
+  align-self: center;
+}
+/* line 15, ../scss/header.scss */
+.logoimg img {
+  width: 100%;
+}
+
+/* line 19, ../scss/header.scss */
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 1%;
+  margin-right: -21px;
+}
+/* line 25, ../scss/header.scss */
+.contact .contactinfo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 29, ../scss/header.scss */
+.contact .contactinfo a {
+  text-align: center;
+  font-size: 10px;
+  color: black;
+  display: block;
+  padding: 2% 0;
+}
+
+/* line 38, ../scss/header.scss */
+.login {
+  background-color: #d1d1d1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+/* line 43, ../scss/header.scss */
+.login a {
+  margin: auto 0;
+  text-align: center;
+  display: block;
+  padding: 2% 3%;
+  color: #503939;
+  font-weight: bold;
+}
+/* line 51, ../scss/header.scss */
+.login .cart {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 1%;
+  top: 1%;
+  font-size: 18px;
+  border-radius: 50%;
+}
+/* line 67, ../scss/header.scss */
+.login .loginbt {
+  display: block;
+  width: auto;
+  color: black;
+}
+/* line 72, ../scss/header.scss */
+.login .regisbt {
+  display: block;
+  border-radius: 6px;
+  color: white;
+  width: auto;
+  background-color: #e94123;
+}
+
+/* line 90, ../scss/header.scss */
+.listsearch {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 95, ../scss/header.scss */
+.listsearch {
+  background: white;
+  border-radius: 8px;
+}
+
+/* line 99, ../scss/header.scss */
+.listbox {
+  padding: 1% 0;
+}
+/* line 101, ../scss/header.scss */
+.listbox .listitem {
+  display: flex;
+  align-self: center;
+  padding-top: 1%;
+  border-right: 1px solid grey;
+}
+/* line 106, ../scss/header.scss */
+.listbox .listitem p {
+  display: block;
+  width: 150%;
+  text-align: center;
+}
+
+/* line 113, ../scss/header.scss */
+.searchbox {
+  padding: 1% 0;
+}
+
+/* line 116, ../scss/header.scss */
+.search {
+  background-color: #0a000a;
+  display: flex;
+  border-radius: 10px;
+}
+/* line 120, ../scss/header.scss */
+.search .searchimg {
+  width: auto;
+  display: flex;
+  align-self: center;
+}
+/* line 124, ../scss/header.scss */
+.search .searchimg img {
+  width: auto;
+}
+/* line 128, ../scss/header.scss */
+.search .searchinput {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000e09;
+  border: 1px solid black;
+  color: white;
+}

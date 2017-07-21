@@ -1,0 +1,64 @@
+@media (max-width:1265px){
+  .listbox{
+    .listitem{
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width:1100px){
+  .contact{
+     .login{
+       justify-content: center;
+     }
+  }
+  .people .item{
+    h5
+    {
+      width:100%;
+      margin-left:0;
+      text-align: center;
+    }
+    p{
+      width:100%;
+      margin-left:0;
+      text-align: center;
+    }
+  }
+ .people .item{
+   .itemimg1{
+     width:100%;
+     padding:10%;
+     margin-left: 0px;
+   }
+   .itemimg2{
+     width:100%;
+     padding:10%;
+     margin-left: 0px;
+   }
+   .itemimg3{
+     width:100%;
+     padding:10%;
+     margin-left: 0px;
+   }
+   h4{
+     width:100%;
+     margin:0;
+   }
+ }
+ footer{
+   .sociallist{
+     display: none;
+   }
+   .footerlist{
+     display: none;
+   }
+   .footerlogo{
+     img{
+       width:100%;
+     }
+   }
+ }
+}

@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  word-break: break-all;
+  list-style: none;
+  letter-spacing: 1px;
+  border:1px solid red;
+}
+$bgcolor:rgb(233, 233, 233);
+$mainred:rgb(233, 65, 35);
+$bthovercolor:rgba(9, 9, 9, 0.25);
+.body{
+  background-color: rgb(233, 233, 233);
+}
+.allwidth{
+  width:80%;
+  margin:0 auto;
+}

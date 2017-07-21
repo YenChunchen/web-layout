@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/* line 5, ../scss/productinfo.scss */
+.showbox {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  border: 2px solid #1dd;
+  vertical-align: middle;
+  margin-bottom: -20px;
+}
+/* line 13, ../scss/productinfo.scss */
+.showbox img {
+  width: 100%;
+  min-width: 250px;
+  min-height: 200px;
+}
+
+/* line 19, ../scss/productinfo.scss */
+.picblock {
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 25, ../scss/productinfo.scss */
+.picblock a img {
+  width: 30%;
+  border: 2px solid #1dd;
+}
+
+/*show pic*/
+/* line 32, ../scss/productinfo.scss */
+.starWrapper {
+  border: 1px solid #FFCC00;
+  margin-bottom: 0;
+  padding: 5px;
+  width: 100%;
+}
+
+/* line 37, ../scss/productinfo.scss */
+.starWrapper img {
+  cursor: pointer;
+}
+
+/*評分*/
+/* line 40, ../scss/productinfo.scss */
+.productright {
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 30%;
+}
+/* line 44, ../scss/productinfo.scss */
+.productright p {
+  display: block;
+  width: 100%;
+  position: relative;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+
+/* line 52, ../scss/productinfo.scss */
+.pricesave {
+  border-bottom: 2px solid grey;
+}
+
+/* line 56, ../scss/productinfo.scss */
+.price h2 {
+  text-align: center;
+  text-decoration: line-through;
+  width: 40%;
+  background-color: #e94123;
+  color: white;
+  margin-left: 60%;
+  font-size: 2vw;
+}
+
+/* line 66, ../scss/productinfo.scss */
+.productprice {
+  background-color: white;
+  margin-top: -5px;
+}
+/* line 69, ../scss/productinfo.scss */
+.productprice h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+  margin: 0;
+}
+
+/* line 78, ../scss/productinfo.scss */
+.save .saveimg {
+  width: 100%;
+  text-align: center;
+}
+/* line 81, ../scss/productinfo.scss */
+.save .saveimg img {
+  width: 100%;
+  width: 100px;
+  height: 100px;
+}
+/* line 87, ../scss/productinfo.scss */
+.save p {
+  text-align: center;
+}
+
+/* line 91, ../scss/productinfo.scss */
+.ship {
+  text-align: right;
+}
+/* line 95, ../scss/productinfo.scss */
+.ship span {
+  font-weight: bold;
+}
+
+/* line 100, ../scss/productinfo.scss */
+.select {
+  width: 100%;
+  display: flex;
+  text-align: right;
+}
+/* line 104, ../scss/productinfo.scss */
+.select p {
+  margin-bottom: 0;
+  text-align: left;
+}
+/* line 108, ../scss/productinfo.scss */
+.select .size {
+  width: 50%;
+}
+/* line 111, ../scss/productinfo.scss */
+.select .Qty {
+  width: 50%;
+}
+
+/* line 116, ../scss/productinfo.scss */
+.selectadd h4 {
+  border-radius: 5px;
+  background-color: #e94123;
+  text-align: center;
+  color: white;
+  padding: 2%;
+}
+/* line 123, ../scss/productinfo.scss */
+.selectadd h5 {
+  margin-bottom: 2px;
+}
+
+/* line 127, ../scss/productinfo.scss */
+.btn-default {
+  padding: 2%;
+  width: auto;
+  display: flex;
+}
+
+/* line 132, ../scss/productinfo.scss */
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* line 136, ../scss/productinfo.scss */
+.share {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* line 141, ../scss/productinfo.scss */
+.social1 {
+  color: #044771;
+}
+
+/* line 142, ../scss/productinfo.scss */
+.social2 {
+  color: #fb1c0e;
+}
+
+/* line 143, ../scss/productinfo.scss */
+.social3 {
+  color: #34ade8;
+}
+
+/* line 144, ../scss/productinfo.scss */
+.social4 {
+  color: #41f1d1;
+}
+
+/* line 145, ../scss/productinfo.scss */
+.social5 {
+  color: #090528;
+}
+
+/* line 146, ../scss/productinfo.scss */
+.social6 {
+  color: #32094e;
+}
+
+/* line 148, ../scss/productinfo.scss */
+.bgwhite {
+  background-color: white;
+}
+/* line 150, ../scss/productinfo.scss */
+.bgwhite a {
+  color: black;
+  font-weight: bold;
+}
+
+/* line 155, ../scss/productinfo.scss */
+.bgwhitecontent {
+  background-color: white;
+  padding: 0 1%;
+  padding-bottom: 2%;
+}

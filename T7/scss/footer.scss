@@ -1,0 +1,51 @@
+
+$bgcolor:rgb(233, 233, 233);
+$mainred:rgb(233, 65, 35);
+$bthovercolor:rgba(9, 9, 9, 0.25);
+footer{
+  background-color: $mainred;
+  margin-top: 5%;
+  .footerlogo{
+    margin-top:1%;
+    img{
+      width:100%;
+    }
+  }
+}
+.footersocial{
+  padding-top: 1%;
+}
+.footerlist{
+  padding-top:1%;
+  .list{
+    display: flex;
+    justify-content: center;
+  }
+  ul{
+    padding:1% 0;
+    width:105%;
+    margin-left: -15px;
+    li{
+      border-right: 2px white solid;
+      a{
+        width:100%;
+        font-size:0.1vw;
+        color:white;
+      }
+    }
+    .non{
+      border-right: 2px $mainred solid;
+    }
+  }
+}
+.sociallist{
+  display: flex;
+  padding-top: 1%;
+  padding-left: 0;
+  li{
+    margin:1% 5%;
+    a{
+      color:white;
+    }
+  }
+}

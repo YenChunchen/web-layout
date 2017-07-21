@@ -1,0 +1,135 @@
+$bgcolor:rgb(233, 233, 233);
+$mainred:rgb(233, 65, 35);
+$bthovercolor:rgba(9, 9, 9, 0.25);
+
+header{
+  .logocontact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.logoimg{
+  display: flex;
+  align-self: center;
+  img{
+    width:100%;
+  }
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  width:auto;
+  padding:1%;
+  margin-right: -21px;
+  .contactinfo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    a{
+      text-align: center;
+      font-size: 10px;
+      color:black;
+      display:block;
+      padding:2% 0;
+    }
+  }
+}
+.login{
+  background-color: rgb(209, 209, 209);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  a{
+    margin:auto 0;
+    text-align: center;
+    display: block;
+    padding:2% 3%;
+    color: rgb(80, 57, 57);
+    font-weight: bold;
+  }
+  .cart{
+    width:auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding:1%;
+    top:1%;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+
+
+
+
+
+
+  .loginbt{
+    display: block;
+    width:auto;
+    color: black;
+  }
+  .regisbt{
+    display: block;
+    border-radius: 6px;
+    color:white;
+    width:auto;
+    background-color: $mainred;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.listsearch{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listsearch{
+  background: white;
+  border-radius: 8px;
+}
+.listbox{
+  padding: 1% 0 ;
+  .listitem{
+    display: flex;
+    align-self: center;
+    padding-top: 1% ;
+    border-right: 1px solid grey;
+    p{
+      display:block;
+      width: 150%;
+      text-align: center;
+    }
+  }
+}
+.searchbox{
+  padding:1% 0;
+}
+.search{
+  background-color: rgb(10, 0, 10);
+  display: flex;
+  border-radius: 10px;
+  .searchimg{
+    width:auto;
+    display: flex;
+    align-self: center;
+    img{
+      width:auto;
+    }
+  }
+  .searchinput{
+    width:100%;
+    border-radius: 10px;
+    background-color: rgb(0, 14, 9);
+    border:1px solid black;
+    color:white;
+  }
+}

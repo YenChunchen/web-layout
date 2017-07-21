@@ -1,0 +1,171 @@
+$bgcolor:rgb(233, 233, 233);
+$mainred:rgb(233, 65, 35);
+$bthovercolor:rgba(9, 9, 9, 0.25);
+
+.filter{
+  background-color: white;
+  padding-bottom: 1%;
+  h4{
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.filtertitle{
+  padding-top:1%;
+  display: flex;
+  background-color: rgb(233, 233, 233);
+  p{
+    display: flex;
+    margin-bottom: 0;
+    margin-left: 0.8%;
+    color:white;
+    background-color:rgb(69, 69, 69) ;
+  }
+}
+.brandstitle{
+  text-align: center;
+  padding-top: 5%;
+}
+.brands{
+  p{
+    margin:0 ;
+  }
+  .brandsleft{
+    border-right:1px solid rgb(185, 185, 185);
+    p{
+      text-align: right;
+      font-size: 1vw;
+    }
+  }
+  .brandsright{
+    p{
+      font-size: 1vw;
+    }
+  }
+}
+
+.people{
+  h4{
+    font-size:1.5vw;
+    border:1px solid green;
+    display: block;
+    width:145%;
+    margin-left: -15px;
+    text-align: center;
+    padding:20% 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+  }
+}
+
+.item{
+  h5
+  {
+    font-size: 1.2vw;
+    color:$mainred;
+    font-weight: bold;
+    width:145%;
+    margin-left: -15px;
+    text-align: center;
+  }
+  p{
+    font-size: 8px;
+    letter-spacing: 0;
+    width:145%;
+    margin-left: -15px;
+    text-align: center;
+  }
+}
+.itemimg1{
+  position: relative;
+  width:130%;
+  padding:10%;
+  margin-left: -9px;
+  margin-top: 15px;
+  border-radius: 50%;
+  background-image: url(../img/woman-r.jpg);
+  background-size: cover;
+  img{
+    width:90%;
+    border-radius: 50%;
+  }
+}
+.itemimg2{
+  position: relative;
+  width:130%;
+  padding:10%;
+  margin-left: -9px;
+  margin-top: 15px;
+  border-radius: 50%;
+  background-image: url(../img/man-r.jpg);
+  background-size: cover;
+  img{
+    width:90%;
+    border-radius: 50%;
+  }
+}
+.itemimg3{
+  position: relative;
+  width:130%;
+  padding:10%;
+  margin-left: -9px;
+  margin-top: 15px;
+  border-radius: 50%;
+  background-image: url(../img/kid-r.jpg);
+  background-size: cover;
+  img{
+    width:90%;
+    border-radius: 50%;
+  }
+}
+.colorprice{
+  h4{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-top: 5%;
+    text-align: center;
+  }
+}
+
+.colorplatte{
+  width:100%;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  padding:0;
+  .colorblock{
+    width:10%;
+    height:20px;
+  }
+  .colorblock:hover{
+    border:3px solid grey;
+  }
+  .red{   background-color: red;  }
+  .green{   background-color: green;  }
+  .blue{   background-color: blue;  }
+  .yellow{   background-color: yellow;  }
+  .black{   background-color: black;  }
+  .Cyan{   background-color: Cyan;  }
+  .DarkBlue{   background-color: DarkBlue;  }
+  .Darkorange{   background-color: Darkorange;  }
+  .Fuchsia{   background-color: Fuchsia;  }
+  .GreenYellow{   background-color:GreenYellow ;  }
+  .IndianRed{   background-color:IndianRed ;  }
+  .GoldenRod{   background-color:GoldenRod ;  }
+  .Maroon{   background-color: Maroon;  }
+  .OrangeRed{   background-color: OrangeRed;  }
+  .Pink{   background-color: Pink;  }
+  .RoyalBlue{   background-color:RoyalBlue ;  }
+  .Olive{   background-color: Olive;  }
+  .LightSteelBlue{   background-color:LightSteelBlue;   }
+  .MediumSeaGreen{   background-color:MediumSeaGreen ;  }
+}
+
+.pricerange{
+  width:100%;
+  .slide{
+    width:auto;
+  }
+}

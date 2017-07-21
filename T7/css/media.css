@@ -1,0 +1,62 @@
+@media (max-width: 1265px) {
+  /* line 4, ../scss/media.scss */
+  .listbox .listitem p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1100px) {
+  /* line 13, ../scss/media.scss */
+  .contact .login {
+    justify-content: center;
+  }
+
+  /* line 19, ../scss/media.scss */
+  .people .item h5 {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  /* line 24, ../scss/media.scss */
+  .people .item p {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* line 31, ../scss/media.scss */
+  .people .item .itemimg1 {
+    width: 100%;
+    padding: 10%;
+    margin-left: 0px;
+  }
+  /* line 36, ../scss/media.scss */
+  .people .item .itemimg2 {
+    width: 100%;
+    padding: 10%;
+    margin-left: 0px;
+  }
+  /* line 41, ../scss/media.scss */
+  .people .item .itemimg3 {
+    width: 100%;
+    padding: 10%;
+    margin-left: 0px;
+  }
+  /* line 46, ../scss/media.scss */
+  .people .item h4 {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 52, ../scss/media.scss */
+  footer .sociallist {
+    display: none;
+  }
+  /* line 55, ../scss/media.scss */
+  footer .footerlist {
+    display: none;
+  }
+  /* line 59, ../scss/media.scss */
+  footer .footerlogo img {
+    width: 100%;
+  }
+}

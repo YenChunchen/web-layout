@@ -1,0 +1,159 @@
+$bgcolor:rgb(233, 233, 233);
+$mainred:rgb(233, 65, 35);
+$bthovercolor:rgba(9, 9, 9, 0.25);
+
+.showbox {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+	width: 100%;
+	border: 2px solid #1dd;
+	vertical-align: middle;
+  margin-bottom: -20px;
+  img{
+    width:100%;
+    min-width: 250px;
+    min-height: 200px;
+  }
+}
+.picblock {
+	margin-top: 10px;
+	width: 100%;
+	overflow: hidden;
+  text-align: center;
+}
+.picblock a img {
+	width: 30%;
+	border: 2px solid #1dd;
+}
+/*show pic*/
+
+
+.starWrapper{
+  border:1px solid #FFCC00;
+  margin-bottom: 0;
+  padding:5px;width:100%;
+}
+.starWrapper img{cursor:pointer;}
+/*評分*/
+
+.productright{
+  width:100%;
+  padding-top: 10%;
+  padding-bottom: 30%;
+  p{
+    display: block;
+    width:100%;
+    position: relative;
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+}
+.pricesave{
+  border-bottom:2px solid grey;
+}
+.price{
+  h2{
+    text-align: center;
+    text-decoration: line-through;
+    width:40%;
+    background-color: $mainred;
+    color: white;
+    margin-left: 60%;
+    font-size: 2vw;
+  }
+}
+.productprice{
+  background-color: white;
+  margin-top:-5px;
+  h1{
+    display: block;
+    width:100%;
+    text-align: center;
+    font-size: 5vw;
+    margin:0;
+  }
+}
+.save{
+  .saveimg{
+    width:100%;
+    text-align: center;
+    img{
+      width:100%;
+      width:100px;
+      height:100px;
+    }
+  }
+  p{
+    text-align: center;
+  }
+}
+.ship{
+  text-align: right;
+  .shipimg{
+  }
+  span{
+    font-weight: bold;
+  }
+}
+
+.select{
+  width:100%;
+  display: flex;
+  text-align: right;
+  p{
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .size{
+    width:50%;
+  }
+  .Qty{
+    width:50%;
+  }
+}
+.selectadd{
+  h4{
+    border-radius: 5px;
+    background-color: $mainred;
+    text-align: center;
+    color:white;
+    padding:2%;
+  }
+  h5{
+    margin-bottom: 2px;
+  }
+}
+.btn-default{
+  padding:2%;
+  width:auto;
+  display: flex;
+}
+.dropdown{
+  display: flex;
+  justify-content:flex-start;
+}
+.share{
+  text-align: right;
+  font-weight: bold;
+}
+
+.social1{ color:rgb(4, 71, 113); }
+.social2{ color:rgb(251, 28, 14); }
+.social3{ color:rgb(52, 173, 232) ;}
+.social4{ color:rgb(65, 241, 209) }
+.social5{ color:rgb(9, 5, 40); }
+.social6{ color:rgb(50, 9, 78); }
+
+.bgwhite{
+  background-color: white;
+  a{
+    color:black;
+    font-weight: bold;
+  }
+}
+.bgwhitecontent{
+  background-color: white;
+  padding:0 1%;
+  padding-bottom: 2%;
+}
